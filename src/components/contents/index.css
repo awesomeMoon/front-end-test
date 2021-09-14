@@ -1,0 +1,57 @@
+.container {
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logContainer {
+    width: 40%;
+    height: 500px;
+}
+
+.logContent {
+    border: 2px #dcdcdc solid;
+    border-radius: 4px;
+    height: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.logContent > button {
+    float: right
+}
+
+.summaryContainer {
+    width: 50%;
+}
+
+.header {
+    /* Overwrite style from material UI */
+    width: 100% !important;
+    min-width: auto !important;
+    max-width: 100% !important;
+}
+
+.cell { 
+    /* Overwrite style from material UI */
+    width: 100% !important;
+    min-width: 160px !important;
+    max-width: 100% !important;
+}
+
+.logItem {
+    margin-top: 45px;
+}
+
+.itemTime {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.stockPrice {
+    font-size: 15px;
+    font-weight: 400;
+}
